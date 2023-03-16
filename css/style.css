@@ -152,6 +152,10 @@ h6 {
   border-left-color: #f9f9fa;
 }
 
+.thanks #hero::before {
+  content: none;
+}
+
 @media (max-width: 991px) {
   #hero {
     height: 100vh;
@@ -403,6 +407,7 @@ section {
   font-family: "Playfair Display", serif;
   text-align: left;
   width: 75%;
+  text-transform: none !important;
 }
 .faqs a {
   color: #7b72b4;

@@ -175,6 +175,13 @@ h6 {
         border-left-color: $lighter;
     }
 }
+.thanks{
+    #hero{
+        &::before{
+            content: none;
+        }
+    }
+}
   
 @media (max-width: 991px) {
     #hero {
@@ -437,6 +444,7 @@ section {
         font-family: 'Playfair Display', serif;
         text-align: left;
         width: 75%;
+        text-transform: none !important;
     }
     a{
         color: $brand3;
