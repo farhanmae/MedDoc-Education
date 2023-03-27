@@ -144,6 +144,9 @@ h6 {
                     &.facebook::before{
                         content: "\F344";
                     }
+                    &.whatsapp::before{
+                        content: "\F618";
+                    }
                 }
             }
         }
@@ -593,6 +596,9 @@ footer{
                     }
                     &.facebook::before{
                         content: "\F344";
+                    }
+                    &.whatsapp::before{
+                        content: "\F618";
                     }
                 }
             }

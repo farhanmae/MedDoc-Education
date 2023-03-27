@@ -124,6 +124,9 @@ h6 {
 #header .social-menu ul li a.facebook::before {
   content: "\f344";
 }
+#header .social-menu ul li a.whatsapp::before {
+  content: "\f618";
+}
 
 @media (max-width: 991px) {
   #header {
@@ -553,6 +556,9 @@ footer .social-menu ul li a.instagram::before {
 }
 footer .social-menu ul li a.facebook::before {
   content: "\f344";
+}
+footer .social-menu ul li a.whatsapp::before {
+  content: "\f618";
 }
 footer .copy {
   color: #f5f5f5;
