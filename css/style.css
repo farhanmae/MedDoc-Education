@@ -571,6 +571,7 @@ footer .copy {
 .gallery h2 {
   color: #4b3c83;
   font-family: "Playfair Display", serif;
+  text-transform: capitalize;
 }
 .gallery .gallery-item {
   margin-bottom: 30px;
