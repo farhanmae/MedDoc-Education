@@ -478,6 +478,80 @@ section {
 }
 
 /*--------------------------------------------------------------
+# University
+--------------------------------------------------------------*/
+.university {
+    background-color: $brand3;
+    h2{
+        font-weight: 700;
+        font-size: 32px;
+        color: $light;
+        margin-bottom: 20px;
+        font-family: 'Playfair Display', serif;
+    }
+    .member {
+        
+        margin-bottom: 20px;
+        padding: 30px 20px 15px;
+        background: #fff;
+        width: 100%;
+        .img-wrapper{
+            max-height: 220px;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+        img {
+            max-width: 100%;
+            margin: 0 0 30px 0;
+        }
+        h4 {
+            font-weight: 700;
+            margin-bottom: 2px;
+            font-size: 24px;
+            font-family: 'Playfair Display', serif;
+            color: $brand1;
+            text-align: center;
+        }
+        span {
+            font-style: italic;
+            display: block;
+            font-size: 13px;
+            text-align: center;
+        }
+        ul{
+                padding:0 60px;
+                color: $dark;
+                margin: 30px 0;
+                li{
+                    list-style: none;
+                    font-size: 18px;
+                    text-align: center;
+                    border-bottom: 1px solid $lighter;
+                    padding-bottom: 10px;
+                    margin-bottom: 10px;
+                    &:last-child{
+                        border-bottom: none;
+                    }
+                }
+        }
+        .social {
+            margin-top: 15px;
+            a {
+                color: $brand3;
+                transition: 0.3s;
+                &:hover {
+                    color: $brand2;
+                }
+            }
+            i {
+                font-size: 18px;
+                margin: 0 2px;
+            }
+        }
+    }
+}
+  
+/*--------------------------------------------------------------
 # FAQ
 --------------------------------------------------------------*/
 .faqs {

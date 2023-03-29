@@ -439,6 +439,79 @@ section {
 }
 
 /*--------------------------------------------------------------
+# University
+--------------------------------------------------------------*/
+.university {
+  background-color: #7b72b4;
+}
+.university h2 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #f5f5f5;
+  margin-bottom: 20px;
+  font-family: "Playfair Display", serif;
+}
+.university .member {
+  margin-bottom: 20px;
+  padding: 30px 20px 15px;
+  background: #fff;
+  width: 100%;
+}
+.university .member .img-wrapper {
+  max-height: 220px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.university .member img {
+  max-width: 100%;
+  margin: 0 0 30px 0;
+}
+.university .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 24px;
+  font-family: "Playfair Display", serif;
+  color: #4b3c83;
+  text-align: center;
+}
+.university .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+  text-align: center;
+}
+.university .member ul {
+  padding: 0 60px;
+  color: #333333;
+  margin: 30px 0;
+}
+.university .member ul li {
+  list-style: none;
+  font-size: 18px;
+  text-align: center;
+  border-bottom: 1px solid #f9f9fa;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.university .member ul li:last-child {
+  border-bottom: none;
+}
+.university .member .social {
+  margin-top: 15px;
+}
+.university .member .social a {
+  color: #7b72b4;
+  transition: 0.3s;
+}
+.university .member .social a:hover {
+  color: #57c3ef;
+}
+.university .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+
+/*--------------------------------------------------------------
 # FAQ
 --------------------------------------------------------------*/
 .faqs h2 {
