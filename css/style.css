@@ -198,9 +198,8 @@ h6 {
 
 @media (max-width: 991px) {
   #hero {
-    height: 100vh;
+    height: auto;
     background-color: #4b3c83;
-    padding-top: 0;
   }
   #hero .animated {
     animation: none;
@@ -215,6 +214,7 @@ h6 {
 @media (max-width: 768px) {
   #hero {
     height: auto;
+    padding-top: 0;
   }
   #hero h1 {
     font-size: 28px;
