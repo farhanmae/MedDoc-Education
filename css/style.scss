@@ -230,6 +230,7 @@ h6 {
     #hero {
         height: 100vh;
         background-color: $brand1;
+        padding-top: 0;
         .animated {
             animation: none;
         }
@@ -550,7 +551,16 @@ section {
         }
     }
 }
-  
+@media (max-width: 991px) {
+    .university{
+        .member{
+            ul{
+                padding: 0 40px;
+            }
+        }
+    }
+}
+
 /*--------------------------------------------------------------
 # FAQ
 --------------------------------------------------------------*/
