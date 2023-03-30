@@ -697,13 +697,13 @@ footer{
 /*--------------------------------------------------------------
 # Gallery
 --------------------------------------------------------------*/
-.gallery {
+.portfolio {
     h2{
         color: $brand1;
         font-family: 'Playfair Display', serif;
         text-transform: capitalize;
     }
-    .gallery-item {
+    .portfolio-item {
         margin-bottom: 30px;
         .portfolio-info {
             opacity: 0;
@@ -746,6 +746,19 @@ footer{
             .portfolio-info {
                 opacity: 1;
                 bottom: 20px;
+            }
+        }
+        a{
+            position: relative;
+            color: $brand1;
+            i{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                &::before{
+                    font-size: 36px;
+                }
             }
         }
     }
